@@ -17,22 +17,22 @@ public class Main {
     public static void imprimirMouses(List<Mouse> listaMouses ){
         for (Mouse mouse : listaMouses){
             if (mouse instanceof Cybertel){
-                System.out.println("cantidad de botones: " + mouse.cantidadBotones());
+                System.out.println("cantidad de botones: " + mouse.cantidadBotonesCybertel());
             }
             if (mouse instanceof Kalley){
-                System.out.println("cantidad de botones: " + mouse.cantidadBotones());
+                System.out.println("cantidad de botones: " + mouse.cantidadBotonesKalley());
             }
             if (mouse instanceof Logitech){
-                System.out.println("cantidad de botones: " + mouse.cantidadBotones());
+                System.out.println("cantidad de botones: " + mouse.cantidadBotonesLogitech());
             }
             if (mouse instanceof Razer){
-                System.out.println("cantidad de botones: " + mouse.cantidadBotones());
+                System.out.println("cantidad de botones: " + mouse.cantidadBotonesRazer());
             }
             if (mouse instanceof RedDragon){
-                System.out.println("cantidad de botones: " + mouse.cantidadBotones());
+                System.out.println("cantidad de botones: " + mouse.cantidadBotonesRedDragon());
             }
             if (mouse instanceof XtrikeMe){
-                System.out.println("cantidad de botones: " + mouse.cantidadBotones());
+                System.out.println("cantidad de botones: " + mouse.cantidadBotonesXtrikeMe());
             }
         }
     }

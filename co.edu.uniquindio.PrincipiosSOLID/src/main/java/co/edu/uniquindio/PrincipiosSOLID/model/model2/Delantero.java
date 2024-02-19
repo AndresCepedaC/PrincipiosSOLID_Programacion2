@@ -1,6 +1,7 @@
 package co.edu.uniquindio.PrincipiosSOLID.model.model2;
 
 public class Delantero extends JugadorFutbol implements IEntrenador, INutricion{
+    //Esta clase tendria implementados IEntrenador, IJugador y INutricion
     public Delantero() {
     }
 

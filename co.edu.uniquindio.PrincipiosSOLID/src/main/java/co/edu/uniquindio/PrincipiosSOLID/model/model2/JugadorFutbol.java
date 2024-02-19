@@ -1,6 +1,8 @@
 package co.edu.uniquindio.PrincipiosSOLID.model.model2;
 
 public abstract class JugadorFutbol implements IJugador {
+    //como le aplico a la clase abstracta la interface
+    //es como si se leaplicara a las clases con herencia
     private String nombre;
     private String posicion;
 

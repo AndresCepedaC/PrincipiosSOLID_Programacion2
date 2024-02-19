@@ -18,6 +18,7 @@ public class MainEquipoFutbol {
         equipoFutbol.getListaJugadoresDeFutbol().add(delantero);
 
         System.out.println(" responsabilidad unica \n");
+
         //principio responsabilidad unica
         RecojeBolas recojeBolas = new RecojeBolas();
         recojeBolas.recogerBalon();
