@@ -13,4 +13,9 @@ public class Portero extends JugadorFutbol implements IEntrenador{
     public void darInstrucciones() {
         System.out.println("En los mano a mano no debes de esperar que remate, tienes que salir a achicar... ");
     }
+
+    @Override
+    public void Jugar() {
+        System.out.println("Jugando");
+    }
 }

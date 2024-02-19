@@ -1,6 +1,6 @@
 package co.edu.uniquindio.PrincipiosSOLID.model.model2;
 
-public class Mediocampista extends JugadorFutbol implements IEntrenador{
+public class Mediocampista extends JugadorFutbol implements IEntrenador, IJugador{
     public Mediocampista() {
     }
 
@@ -12,5 +12,10 @@ public class Mediocampista extends JugadorFutbol implements IEntrenador{
     @Override
     public void darInstrucciones() {
         System.out.println("Tienes que dar mas pases al espacio...");
+    }
+
+    @Override
+    public void Jugar() {
+        System.out.println("Jugando");
     }
 }

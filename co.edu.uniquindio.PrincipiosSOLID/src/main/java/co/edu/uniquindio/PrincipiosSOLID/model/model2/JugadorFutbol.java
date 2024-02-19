@@ -1,6 +1,6 @@
 package co.edu.uniquindio.PrincipiosSOLID.model.model2;
 
-public abstract class JugadorFutbol {
+public abstract class JugadorFutbol implements IJugador {
     private String nombre;
     private String posicion;
 

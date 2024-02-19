@@ -1,6 +1,6 @@
 package co.edu.uniquindio.PrincipiosSOLID.model.model2;
 
-public class Delantero extends JugadorFutbol implements IEntrenador{
+public class Delantero extends JugadorFutbol implements IEntrenador, INutricion{
     public Delantero() {
     }
 
@@ -12,5 +12,15 @@ public class Delantero extends JugadorFutbol implements IEntrenador{
     @Override
     public void darInstrucciones() {
         System.out.println("Tienes que atacar al espacio... ");
+    }
+
+    @Override
+    public void hacerDieta() {
+        System.out.println("Haciendo dieta sugerida");
+    }
+
+    @Override
+    public void Jugar() {
+        System.out.println("Jugando");
     }
 }
