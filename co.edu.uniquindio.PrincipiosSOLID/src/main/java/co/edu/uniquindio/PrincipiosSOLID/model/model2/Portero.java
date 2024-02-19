@@ -16,6 +16,6 @@ public class Portero extends JugadorFutbol implements IEntrenador{
 
     @Override
     public void Jugar() {
-        System.out.println("Jugando");
+        System.out.println("Jugando como portero");
     }
 }

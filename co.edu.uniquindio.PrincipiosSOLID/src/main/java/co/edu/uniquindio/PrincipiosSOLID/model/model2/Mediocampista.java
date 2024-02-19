@@ -16,6 +16,6 @@ public class Mediocampista extends JugadorFutbol implements IEntrenador, IJugado
 
     @Override
     public void Jugar() {
-        System.out.println("Jugando");
+        System.out.println("Jugando como mediocampista");
     }
 }

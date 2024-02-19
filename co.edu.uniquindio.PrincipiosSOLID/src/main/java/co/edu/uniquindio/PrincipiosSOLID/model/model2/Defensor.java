@@ -22,6 +22,6 @@ public class Defensor extends JugadorFutbol implements IEntrenador, IEntrenarFue
 
     @Override
     public void Jugar() {
-        System.out.println("Jugando");
+        System.out.println("Jugando como defensor");
     }
 }

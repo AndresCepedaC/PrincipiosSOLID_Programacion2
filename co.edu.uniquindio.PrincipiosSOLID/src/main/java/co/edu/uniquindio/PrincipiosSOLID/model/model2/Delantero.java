@@ -21,6 +21,6 @@ public class Delantero extends JugadorFutbol implements IEntrenador, INutricion{
 
     @Override
     public void Jugar() {
-        System.out.println("Jugando");
+        System.out.println("Jugando como delantero");
     }
 }
