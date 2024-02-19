@@ -7,11 +7,7 @@ import java.util.List;
 public class EquipoFutbol {
     private String nombre;
     private String anoFundacion;
-    private List<Delantero> listaDelanteros = new ArrayList<>();
-    private List<Mediocampista> listaMediocampistas = new ArrayList<>();
-    private List<Defensor> listaDefensores = new ArrayList<>();
-    private List<Portero> listaPorteros = new ArrayList<>();
-    private List<RecojeBolas> listaRecojeBolas = new ArrayList<>();
+    private List<JugadorFutbol> listaJugadoresDeFutbol = new ArrayList<>();
 
     public EquipoFutbol() {
     }
@@ -32,43 +28,11 @@ public class EquipoFutbol {
         this.anoFundacion = anoFundacion;
     }
 
-    public List<Delantero> getListaDelanteros() {
-        return listaDelanteros;
+    public List<JugadorFutbol> getListaJugadoresDeFutbol() {
+        return listaJugadoresDeFutbol;
     }
 
-    public void setListaDelanteros(List<Delantero> listaDelanteros) {
-        this.listaDelanteros = listaDelanteros;
-    }
-
-    public List<Mediocampista> getListaMediocampistas() {
-        return listaMediocampistas;
-    }
-
-    public void setListaMediocampistas(List<Mediocampista> listaMediocampistas) {
-        this.listaMediocampistas = listaMediocampistas;
-    }
-
-    public List<Defensor> getListaDefensores() {
-        return listaDefensores;
-    }
-
-    public void setListaDefensores(List<Defensor> listaDefensores) {
-        this.listaDefensores = listaDefensores;
-    }
-
-    public List<Portero> getListaPorteros() {
-        return listaPorteros;
-    }
-
-    public void setListaPorteros(List<Portero> listaPorteros) {
-        this.listaPorteros = listaPorteros;
-    }
-
-    public List<RecojeBolas> getListaRecojeBolas() {
-        return listaRecojeBolas;
-    }
-
-    public void setListaRecojeBolas(List<RecojeBolas> listaRecojeBolas) {
-        this.listaRecojeBolas = listaRecojeBolas;
+    public void setListaJugadoresDeFutbol(List<JugadorFutbol> listaJugadoresDeFutbol) {
+        this.listaJugadoresDeFutbol = listaJugadoresDeFutbol;
     }
 }
